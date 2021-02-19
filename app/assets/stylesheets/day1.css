@@ -36,3 +36,7 @@ body {
 .day1_end_pictures {
   padding: 0;
 }
+
+.event_info {
+  margin-top: 2.5rem;
+}
