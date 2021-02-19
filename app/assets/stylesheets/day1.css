@@ -1,3 +1,7 @@
+body {
+  padding-bottom: 10rem;
+}
+
 .app_explanation_container {
   margin-top: 2rem;
 }
@@ -8,7 +12,7 @@
 
 .app_direction_title {
   color: #555555;
-  margin-top: 2.5rem;
+  margin-top: 5rem;
 }
 
 .app_direction_title strong {
@@ -27,4 +31,8 @@
 .app_explanation_conclusion_p {
   margin-bottom: .5rem;
   color: #555555;
+}
+
+.day1_end_pictures {
+  padding: 0;
 }
