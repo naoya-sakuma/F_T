@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get "day1", to: "plans#day1"
   get "day2", to: "plans#day2"
   get "day3", to: "plans#day3"
+  root to: 'plans#day1'
 end
