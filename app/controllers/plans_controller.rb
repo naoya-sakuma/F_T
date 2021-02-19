@@ -6,4 +6,5 @@ class PlansController < ApplicationController
   end
 
   def day3
+  end
 end
