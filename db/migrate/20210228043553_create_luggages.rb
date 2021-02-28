@@ -1,6 +1,9 @@
 class CreateLuggages < ActiveRecord::Migration[5.2]
   def change
     create_table :luggages do |t|
+      t.string :name
+      t.integer :number
+      t.string :status
 
       t.timestamps
     end
