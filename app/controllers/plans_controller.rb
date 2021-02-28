@@ -7,4 +7,10 @@ class PlansController < ApplicationController
 
   def day3
   end
+
+  def ogino
+  end
+
+  def iizima
+  end
 end
