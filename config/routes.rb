@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "ogino", to: "plans#ogino"
   get "iizima", to: "plans#iizima"
   root to: 'plans#day1'
+  resources :luggages
 end
