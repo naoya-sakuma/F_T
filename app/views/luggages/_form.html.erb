@@ -10,8 +10,16 @@
       </ul>
     </div>
   <% end %>
-  <%= form.text_field :name %>
+  <%#= form.label :name, '名前' %>
+  <%= form.text_field :name, placeholder: '名前' %>
 
+  <%#= form.label :number, '数' %>
+  <%= form.text_field :number, placeholder: '必要数' %>
 
-  <%= form.submit '保存' %>
+  <%#= form.label :status, '状態' %>
+  <%= form.text_field :status, placeholder: '状態' %>
+
+  <div>
+    <%= form.submit '保存' %>
+  </div>
 <% end %>
