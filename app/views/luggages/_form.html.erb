@@ -1,0 +1,17 @@
+
+<%= form_with(model: @luggage, local: true) do |form| %>
+  <% if @luggage.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= @luggage.errors.count %>件のエラーがあります。</h2>
+      <ul>
+        <% @luggage.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <%= form.text_field :name %>
+
+
+  <%= form.submit '保存' %>
+<% end %>

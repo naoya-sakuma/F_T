@@ -3,6 +3,7 @@ class LuggagesController < ApplicationController
   end
 
   def new
+    @luggage = Luggage.new
   end
 
   def create
